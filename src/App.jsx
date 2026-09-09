@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import ProjectCard from "./components/ProjectCard";
 import Contact from "./components/Contact";
 
 export default function App() { 
@@ -11,11 +10,10 @@ export default function App() {
     <> 
       <Navbar />
       <main>  
-         <Hero />
+        <Hero />
         <About />
         <Experience />
         <Projects />
-        <ProjectCard />
         <Contact />
       </main>
     </>
