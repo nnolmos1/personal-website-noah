@@ -20,17 +20,17 @@ body {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   padding: 1.5em 2em;
+   padding: 1.25em 2em;
 
    position: sticky; /* Makes the navbar stick to the top of the page */
    top: 0;
    z-index: 1000;
 
-   background: rgba(9, 14, 24, 0.75);
+   background: rgba(9, 14, 24, 0.25);
    backdrop-filter: blur(12px);
    -webkit-backdrop-filter: blur(12px);
 
-   border-bottom: 1px solid rgba(241, 245, 249, 0.08);
+   border-bottom: 1px solid rgba(241, 245, 249, 0.08); 
    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
  }
 
@@ -51,8 +51,10 @@ body {
 
 /*HERO SECTION*/ 
 
-#hero {
-   margin: 10em 20em;
+#hero-left {
+   margin: 12em 20em;
+   max-width: 500px;
+   width: 100%;
 }
 
 #hero-heading {
@@ -70,8 +72,9 @@ body {
    font-size: 6rem;
    color: #f1f5f9;
    margin: 0;
-   letter-spacing: 0.04em;
-   margin-bottom: 0.5em;
+   letter-spacing: 0.05em;
+   margin-bottom: 0.25em;
+   font-weight: 600;
 }
 
 #hero-description {
@@ -91,12 +94,12 @@ body {
 
 .btn {
    font-family: 'Roboto Mono', monospace;
-   font-size: 1.25rem;
+   font-size: 1.2rem;
    color: #f1f5f9;
    margin: 0;
    letter-spacing: 0.04em;
    border: 1.5px solid #f1f5f9;
-   padding: 0.5em 1em;
+   padding: 0.5em 0.9em;
    background-color: transparent;
    border-radius: 8px;
    cursor: pointer;
@@ -106,3 +109,171 @@ body {
    background-color: #f1f5f9;
    color: #1A1A1A;
 }
+
+
+/* ABOUT SECTION */
+
+
+.about {
+   width: min(1050px, 90%); /* Set a maximum width of 900px or 90% of the viewport width, whichever is smaller */
+   margin: 0 auto;
+   padding: 5rem 0;
+}
+
+.section-heading {
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+   font-size: 2rem;
+   letter-spacing: 0.05em;
+   margin-bottom: 4rem;
+}
+
+.about-intro {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 4rem;
+}
+
+.about-text {
+   max-width: 700px;
+}
+
+.about-text p {
+   /* font-family: 'Inter', sans-serif; */
+   font-family: 'Roboto Mono', monospace;
+   font-size: 1rem;
+   line-height: 1.6;
+   color: #cbd5e1;
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+}
+
+.about-photo img{
+   width: 300px;
+   height: 300px;
+   border-radius: 999px;
+   background: #c7c7c7;
+   object-fit: cover; 
+   object-position: center 40%;
+   filter: brightness(9000%);
+
+   flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+/* EDUCATION */ 
+.education {
+   margin-top: 10em;
+   margin-bottom: 10em;
+}
+.subsection-heading {
+   display: flex;
+   align-items: center;
+   gap: 1em;
+   margin-top: 5em;
+   margin-bottom: 2em;
+}
+
+.subsection-heading h3 {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 1.5rem;
+   letter-spacing: 0.1em;
+   white-space: nowrap;
+   margin-right: 0.5em;
+   font-weight: 500;
+}
+
+.heading-line {
+   height: 1.5px;
+   background: rgba(241, 245, 249, 0.5);
+   flex: 1;
+}
+
+.education-content {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   padding-left: 1rem;
+   border-left: 1px solid rgba(241, 245, 249, 0.25);
+}
+
+.education-logo {
+   width: 180px;
+   flex-shrink: 0;
+}
+
+.education-text p {
+   line-height: 1.5;
+   color: #cbd5e1;
+}
+
+.school-name {
+   color: #f1f5f9 !important;
+   font-family: 'Inter', sans-serif;
+   font-weight: 600;
+   font-size: 1.5rem;
+   margin: 0;
+   margin-bottom: 0.25em;
+}
+
+.degree {
+   color: #f1f5f9 !important;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 500;
+   margin: 0;
+   margin-bottom: 1em;
+
+}
+
+.school-details {
+   font-size: 0.9rem !important;
+   color: #94a3b8 !important;
+   font-family: 'Roboto Mono', monospace;
+   margin: 0;
+
+}
+
+/*SKILLS */
+.skill-card {
+   border: 2px dashed rgba(241, 245, 249, 0.25);
+   padding: 1.5em;
+   margin-bottom: 2em;
+   border-radius: 8px;
+}
+
+.skill-card h4 {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 1.25rem;
+   letter-spacing: 0.05em;
+   margin: 0 0 1.5em 0;
+   font-weight: 500;
+}
+
+.skill-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75em;
+   margin-bottom: 1em;
+   max-width: 750px;
+   width: 100%;
+}
+
+.skill-tags span {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 0.8rem;
+   color: #f1f5f9;
+   border: 1.75px solid rgba(241, 245, 249, 0.25);
+   padding: 0.6em 1.2em;
+   border-radius: 10px; 
+}
+
+
+/* PROJECTS SECTION */
+
+/* EXPERIENCE SECTION */
+
+/* CONTACT SECTION */
+
+/* FOOTER SECTION */
+
+/* DESIGN COMPONENTS */
