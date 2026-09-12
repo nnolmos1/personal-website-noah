@@ -6,9 +6,9 @@ export default function About() {
 
         <div className="about-intro">
             <div className="about-text">
-            <p>My name is Noah Olmos, and I am currently a Sophomore at the University of Illinois Chicago majoring in Computer Science + Design. </p>
+            <p>My name is Noah Olmos, and I am currently a Sophomore at the <span className="highlight">University of Illinois Chicago</span> majoring in <span className="bold">Computer Science + Design.</span> </p>
             <p>Recently I’ve been exploring the worlds of frontend development & web design, building things with Figma, React, HTML, CSS, and JavaScript. However I’m always looking for opportunities to build new skills and explore new technologies.</p>
-            <p>In my free time, I enjoy casual photography, exploring the city, working out, and meeting new people.</p>
+            <p>In my free time, I find myself drawn to photography, exploring the city, working out, and talking to the voices in my head that i cant control</p>
             </div>
 
             <div className="about-photo">
