@@ -51,6 +51,10 @@ body {
 
 /*HERO SECTION*/ 
 
+#hero {
+   height: 100vh;
+}
+
 #hero-left {
    margin: 12em 20em;
    max-width: 500px;
@@ -74,7 +78,7 @@ body {
    margin: 0;
    letter-spacing: 0.05em;
    margin-bottom: 0.25em;
-   font-weight: 600;
+   font-weight: 600; 
 }
 
 #hero-description {
@@ -152,7 +156,7 @@ body {
 
 .about-photo img{
    aspect-ratio: 1/1;
-   width: min(300px, 100%);
+   width: min(300px, 35vw); /* Set a max width of 300px or 35% of the vp width (whichever is smaller) */
    border-radius: 999px;
    background: #c7c7c7;
    object-fit: cover; 
@@ -177,7 +181,7 @@ body {
 
 .subsection-heading h3 {
    font-family: 'Roboto Mono', monospace;
-   font-size: 1.8rem;
+   font-size: 1.5rem;
    letter-spacing: 0.1em;
    white-space: nowrap;
    margin-right: 0.5em;
@@ -309,6 +313,9 @@ body {
    letter-spacing: 0.05em;
    color: #94a3b8;
    margin: 0;
+   width: 260px;
+   text-align: right;
+   flex-shrink: 0;
 }
 
 .timeline-marker {
@@ -385,6 +392,88 @@ body {
    border-radius: 10px; 
 }
 
+/* PROJECTS SECTION */
+
+.projects {
+   width: min(1050px, 90%); 
+   margin: 0 auto;
+   padding: 5em 0;
+}
+
+.heading-divider {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   margin-top: -1.5em;
+}
+
+.divider-line {
+   width: 60px;
+   height: 2px;
+   background: rgba(241, 245, 249, 0.5);
+}
+
+.divider-star {
+   color: #f1f5f9;
+   font-size: 2.5rem;
+}
+
+
+.projects-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2em;
+   margin-top: 4em;
+}
+
+.project-card {
+   border: 2px solid rgba(241, 245, 249, 0.25);
+   padding: 1.5em;
+   border-radius: 8px;
+   width: 100%;
+}
+
+.project-image {
+   width: 100%;
+   aspect-ratio: 16 / 10;
+   object-fit: cover;
+   display: block;
+}
+
+.project-card h3 {
+   font-family: 'Inter', sans-serif;
+   font-size: 1.5rem;
+   margin-top: 0;
+}
+
+.project-description {
+   font-family: 'Roboto Mono', monospace;
+   color: #94a3b8;
+}
+
+.project-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75em;
+   margin: 1.5em 0;
+}
+
+.project-tags span {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 0.8rem;
+   color: #94a3b8;
+   border: 1.75px solid rgba(241, 245, 249, 0.25);
+   padding: 0.6em 1.2em;
+   border-radius: 10px;
+}
+
+.project-link {
+   font-family: 'Roboto Mono', monospace;
+   color: #f1f5f9;
+   text-decoration: none;
+}
+
 /* CONTACT SECTION */
 
 /* FOOTER SECTION */
@@ -392,11 +481,28 @@ body {
 /* DESIGN COMPONENTS */
 
 .highlight {
-  background: linear-gradient(180deg, transparent 65%, #365c71 65%);
-  display: inline;
+   background: linear-gradient(180deg, transparent 65%, #365c71 65%);
+   display: inline;
 }
 
 .bold {
    font-weight: 600;
    color: #f1f5f9;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+   .about-intro {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+
+   .about-photo img {
+      width: 200px; /* Adjust the width for smaller screens */
+   }
+
+   .projects-grid {
+      grid-template-columns: 1fr;
+   }
 }

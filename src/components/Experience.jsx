@@ -29,7 +29,7 @@ export default function Experience() {
             <div className="experience-item"> {/* Exp 2 */}
 
                 <div className="experience-date"> 
-                    <p>APR 2026 - PRESENT</p>
+                    <p>JUN 2026 - AUG 2026</p>
                 </div>
 
                 <div className="timeline-marker">
@@ -38,17 +38,17 @@ export default function Experience() {
                 </div>
 
                 <ExperienceCard 
-                    title="Hack4Impact UIC"
-                    role="PRODUCT DESIGNER"
-                    description="Designing & developing digital solutions for Chicago-based nonproft organizations."
-                    tags={["Product Design", "UI/UX", "Figma"]}
+                    title="Everyone Can Code"
+                    role="iOS DESIGNER & DEVELOPER"
+                    description="Prototyed an AI nutrition assistant app for iOS, designed around accessibility and dietary needs."
+                    tags={["SwiftUI", "Figma", "UI/UX", "AI"]}
                 />
             </div>
 
             <div className="experience-item"> {/* Exp 3 */}
 
                 <div className="experience-date"> 
-                    <p>APR 2026 - PRESENT</p>
+                    <p>JUN 2025 - AUG 2025</p>
                 </div>
 
                 <div className="timeline-marker">
@@ -57,10 +57,10 @@ export default function Experience() {
                 </div>
 
                 <ExperienceCard 
-                    title="Hack4Impact UIC"
-                    role="PRODUCT DESIGNER"
-                    description="Designing & developing digital solutions for Chicago-based nonproft organizations."
-                    tags={["Product Design", "UI/UX", "Figma"]}
+                    title="Discovery Partners Institute"
+                    role="iOS APP DESIGNER"
+                    description="Prototyped a health & insurance literacy app. Pitched at Apple Michigan Ave as finalists in the Everyone Can Code Competition."
+                    tags={["SwiftUI", "Figma", "UI/UX"]}
                 />
             </div>
 
@@ -77,10 +77,10 @@ export default function Experience() {
                 </div>
 
                 <ExperienceCard 
-                    title="Hack4Impact UIC"
-                    role="PRODUCT DESIGNER"
-                    description="Designing & developing digital solutions for Chicago-based nonproft organizations."
-                    tags={["Product Design", "UI/UX", "Figma"]}
+                    title="CHicago Public Schools"
+                    role="IT SUMMER INTERN"
+                    description="Assisted in the maintenance of IT systems for a Chicago public high school."
+                    tags={["Teamwork", "Communication", "IT Support"]}
                 />
             </div>
 

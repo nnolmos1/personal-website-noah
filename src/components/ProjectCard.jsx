@@ -1,8 +1,35 @@
-export default function ProjectCard() {
+export default function ProjectCard(props) {
     return (
-        <section id="project-card" className="project-card">
-            <h2> 03. PROJECTS </h2>
-            <p> Here are some of my projects... </p>
-        </section>
+        <div className="project-card">
+            <img
+                className="project-image"
+                src={props.image}
+                alt={props.title}
+            />
+
+            <div className="project-card-content">
+                <h3>{props.title}</h3>
+
+                <p className="project-description">
+                    {props.description}
+                </p>
+
+                <div className="project-tags">
+                    {props.tags.map((tag) => (
+                    <span key={tag}>{tag}</span>
+                    ))}
+                </div>
+
+                <a
+                    className="project-link"
+                    href={props.link}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    VIEW PROJECT ↗
+                </a>
+            </div>
+
+            </div>
     )
 }
