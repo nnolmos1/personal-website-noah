@@ -8,7 +8,7 @@ export default function About() {
             <div className="about-text">
             <p>My name is Noah Olmos, and I am currently a Sophomore at the <span className="highlight">University of Illinois Chicago</span> majoring in <span className="bold">Computer Science + Design.</span> </p>
             <p>Recently I’ve been exploring the worlds of frontend development & web design, building things with Figma, React, HTML, CSS, and JavaScript. However I’m always looking for opportunities to build new skills and explore new technologies.</p>
-            <p>In my free time, I find myself drawn to photography, exploring the city, working out, and talking to the voices in my head that i cant control</p>
+            <p>In my free time, I find myself drawn to photography, exploring the city, working out, and</p>
             </div>
 
             <div className="about-photo">
@@ -29,8 +29,8 @@ export default function About() {
 
                 <div className="education-text">
                     <p className="school-name">University of Illinois Chicago</p>
-                    <p className="degree">B.S. in CS + Design,  Minor in Business Analytics;  2025-2029</p>
-                    <p className="school-details">4.0 GPA / Deans List  ⭑  Honors College ⭑ Chancellors Fellow 
+                    <p className="degree">B.S. in CS + Design, Exp. 2025-2029</p>
+                    <p className="school-details">4.0 GPA  ⭑  Honors College ⭑ Chancellor's Fellows Scholar
                     <br />
                     Involvement: ACM  ⭑  AASIA  ⭑  Hack4Impact UIC </p>
                 </div>

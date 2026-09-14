@@ -3,8 +3,8 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
     return (
         <section id="projects" className="projects">
-            <h2> 03. PROJECTS </h2>
-            <p> Here are some of my projects... </p>
+            <h2 className="section-heading"> 03. PROJECTS </h2>
+            <p className="section-subheading"> A mix of highlighted experiences, coursework, and personal projects </p>
         </section>
     )
 }

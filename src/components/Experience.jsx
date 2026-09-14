@@ -45,6 +45,45 @@ export default function Experience() {
                 />
             </div>
 
+            <div className="experience-item"> {/* Exp 3 */}
+
+                <div className="experience-date"> 
+                    <p>APR 2026 - PRESENT</p>
+                </div>
+
+                <div className="timeline-marker">
+                    <div className="timeline-star">⟡</div>
+                    <div className="timeline-line"></div>
+                </div>
+
+                <ExperienceCard 
+                    title="Hack4Impact UIC"
+                    role="PRODUCT DESIGNER"
+                    description="Designing & developing digital solutions for Chicago-based nonproft organizations."
+                    tags={["Product Design", "UI/UX", "Figma"]}
+                />
+            </div>
+
+
+            <div className="experience-item"> {/* Exp 4 */}
+
+                <div className="experience-date"> 
+                    <p>APR 2026 - PRESENT</p>
+                </div>
+
+                <div className="timeline-marker">
+                    <div className="timeline-star">⟡</div>
+                    <div className="timeline-line"></div>
+                </div>
+
+                <ExperienceCard 
+                    title="Hack4Impact UIC"
+                    role="PRODUCT DESIGNER"
+                    description="Designing & developing digital solutions for Chicago-based nonproft organizations."
+                    tags={["Product Design", "UI/UX", "Figma"]}
+                />
+            </div>
+
             
         </div>
         

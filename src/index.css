@@ -117,7 +117,7 @@ body {
 .about {
    width: min(1050px, 90%); /* Set a maximum width of 900px or 90% of the viewport width, whichever is smaller */
    margin: 0 auto;
-   padding: 5rem 0;
+   padding: 5em 0;
 }
 
 .section-heading {
@@ -125,7 +125,7 @@ body {
    text-align: center;
    font-size: 2.5rem;
    letter-spacing: 0.05em;
-   margin-bottom: 4em;
+   margin-bottom: 1em;
    font-weight: 500;
 }
 
@@ -133,7 +133,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   gap: 4rem;
+   gap: 4em;
 }
 
 .about-text {
@@ -151,8 +151,8 @@ body {
 }
 
 .about-photo img{
-   width: 300px;
-   height: 300px;
+   aspect-ratio: 1/1;
+   width: min(300px, 100%);
    border-radius: 999px;
    background: #c7c7c7;
    object-fit: cover; 
@@ -165,7 +165,7 @@ body {
 /* EDUCATION */ 
 .education {
    margin-top: 10em;
-   margin-bottom: 10em;
+   margin-bottom: 5em;
 }
 .subsection-heading {
    display: flex;
@@ -177,7 +177,7 @@ body {
 
 .subsection-heading h3 {
    font-family: 'Roboto Mono', monospace;
-   font-size: 1.5rem;
+   font-size: 1.8rem;
    letter-spacing: 0.1em;
    white-space: nowrap;
    margin-right: 0.5em;
@@ -273,6 +273,10 @@ body {
 
 /* EXPERIENCE SECTION */
 
+.experience {
+   padding: 5em 0;
+}
+
 .experience h2 {
    margin-bottom: 1em;
 }
@@ -326,7 +330,6 @@ body {
    height: 100%;
 
    background: rgba(241, 245, 249, 0.75);
-
 }
 
 .experience-card {
