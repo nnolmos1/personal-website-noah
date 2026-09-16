@@ -22,7 +22,7 @@ export default function Experience() {
                     title="Hack4Impact UIC"
                     role="PRODUCT DESIGNER"
                     description="Designing & developing digital solutions for Chicago-based nonproft organizations."
-                    tags={["Product Design", "UI/UX", "Figma"]}
+                    tags={["UX Research", "Wireframing", "Figma"]}
                 />
             </div>
 
@@ -39,7 +39,7 @@ export default function Experience() {
 
                 <ExperienceCard 
                     title="Everyone Can Code"
-                    role="iOS DESIGNER & DEVELOPER"
+                    role="IOS DESIGNER & DEVELOPER"
                     description="Prototyed an AI nutrition assistant app for iOS, designed around accessibility and dietary needs."
                     tags={["SwiftUI", "Figma", "UI/UX", "AI"]}
                 />
@@ -58,8 +58,8 @@ export default function Experience() {
 
                 <ExperienceCard 
                     title="Discovery Partners Institute"
-                    role="iOS APP DESIGNER"
-                    description="Prototyped a health & insurance literacy app. Pitched at Apple Michigan Ave as finalists in the Everyone Can Code Competition."
+                    role="IOS APP DESIGNER"
+                    description="Prototyped a health & insurance literacy app. Pitched at Apple Michigan Ave as finalists in the 2025 Everyone Can Code Competition!"
                     tags={["SwiftUI", "Figma", "UI/UX"]}
                 />
             </div>

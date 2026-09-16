@@ -107,11 +107,16 @@ body {
    background-color: transparent;
    border-radius: 8px;
    cursor: pointer;
+   align-items: center;
+   text-decoration: none;
 }
 
 #herobtn1 {
    background-color: #f1f5f9;
    color: #1A1A1A;
+   display: flex;
+   align-items: center;
+   gap: 1em;
 }
 
 
@@ -192,6 +197,15 @@ body {
    height: 1.5px;
    background: rgba(241, 245, 249, 0.5);
    flex: 1;
+}
+
+.education-logo svg {
+   width: 60%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   color: #2d5a9e;
+   
 }
 
 .education-content {
@@ -288,9 +302,10 @@ body {
 .section-subheading {
    font-family: 'Roboto Mono', monospace;
    text-align: center;
-   font-size: 1.25rem;
+   font-size: 1rem;
    letter-spacing: 0.05em;
-   margin-bottom: 4rem;
+   margin: 1em auto 4em auto;
+   max-width: 50vw;
 }
 
 .experience-content {
@@ -330,7 +345,19 @@ body {
    color: #f1f5f9;
    font-size: 2.5rem;
    margin-bottom: 0.25em;
+
+   /* animation: timeline-glow 2s ease-in-out infinite; */
 }
+
+/* @keyframes star-glow {
+   0%, 100% {
+      text-shadow: 0 0 4px #f1f5f9;
+   }
+   50% {
+      text-shadow: 0 0 10px #f1f5f9;
+      text-shadow: 0 0 20px #94a3b8;
+   }
+} */
 
 .timeline-line {
    width: 2px;
@@ -481,13 +508,18 @@ body {
 /* DESIGN COMPONENTS */
 
 .highlight {
-   background: linear-gradient(180deg, transparent 65%, #365c71 65%);
+   background: linear-gradient(180deg, transparent 65%, #2d5a9e 65%);
    display: inline;
 }
 
 .bold {
    font-weight: 600;
    color: #f1f5f9;
+}
+
+.faded {
+   color: #94a3b8;
+   font-size: 50%;
 }
 
 /* MEDIA QUERIES */

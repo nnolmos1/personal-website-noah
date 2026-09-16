@@ -1,3 +1,5 @@
+import { HiMiniArrowTurnRightDown } from "react-icons/hi2";
+
 export default function Hero() {
     return (
         <div id="hero" className="hero">
@@ -7,8 +9,8 @@ export default function Hero() {
                 <p id="hero-description"> CS + Design @ UIC | Aspiring Developer & Digital Designer </p>
 
                 <div id="hero-btns">
-                    <button id="herobtn1" className="btn">View My Work</button>
-                    <button id="herobtn2" className="btn">RESUME</button>
+                    <a id="herobtn1" className="btn" href="#projects">View My Work <HiMiniArrowTurnRightDown /></a>
+                    <a id="herobtn2" className="btn" href="#resume">[RESUME]</a>
                 </div>
             </section>
         </div>

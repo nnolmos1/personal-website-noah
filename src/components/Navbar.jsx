@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <a href="#" id="hero-link">[ N.01 ]</a>
+            <a href="#" id="hero-link">N.01<span className="faded">MOS</span></a>
 
             <div className="nav-links">
                 <a href="#about"> ABOUT </a>
