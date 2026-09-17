@@ -77,7 +77,7 @@ export default function Experience() {
                 </div>
 
                 <ExperienceCard 
-                    title="CHicago Public Schools"
+                    title="Chicago Public Schools"
                     role="IT SUMMER INTERN"
                     description="Assisted in the maintenance of IT systems for a Chicago public high school."
                     tags={["Teamwork", "Communication", "IT Support"]}
