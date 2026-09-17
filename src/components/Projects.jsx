@@ -36,6 +36,15 @@ export default function Projects() {
                     image="/your-image-here.png"
                     tags={["Figma", "UI/UX", "Frontend"]}
                     link="#"
+                    featured={true}
+                />
+
+                <ProjectCard
+                    title="Erie Website Redesign"
+                    description="Website redesign project for a Chicago nonprofit organization."
+                    image="/your-image-here.png"
+                    tags={["Figma", "UI/UX", "Frontend"]}
+                    link="#"
                 />
 
                 <ProjectCard

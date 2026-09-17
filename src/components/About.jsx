@@ -50,7 +50,7 @@ export default function About() {
             <div className="skills-grid">
 
                 <div className="skill-card">
-                    <h4>DEVELOPMENT_</h4>
+                    <h4>DEVELOPMENT {'</>'} </h4>
 
                     <div className="skill-tags">
                         <span>HTML</span>
@@ -65,7 +65,7 @@ export default function About() {
                 </div>
 
                 <div className="skill-card">
-                    <h4>DESIGN_</h4>
+                    <h4>DESIGN ✎</h4>
 
                     <div className="skill-tags">
                         <span>Figma</span>
@@ -81,7 +81,7 @@ export default function About() {
             </div>
 
             <div className="skill-card exploring-card">
-                <h4>CURRENTLY EXPLORING_</h4>
+                <h4>CURRENTLY EXPLORING —͟͟͞͞★</h4>
 
                 <div className="skill-tags">
                 <span>Advanced React</span>

@@ -1,6 +1,6 @@
 export default function ProjectCard(props) {
     return (
-        <div className="project-card">
+        <div className={`project-card ${props.featured ? 'featured' : ''}`}>
             <img
                 className="project-image"
                 src={props.image}
