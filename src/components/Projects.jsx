@@ -26,7 +26,7 @@ export default function Projects() {
                     title="Erie House Website"
                     description="Website redesign project for a Chicago nonprofit organization."
                     image="/your-image-here.png"
-                    tags={["Figma", "UI/UX", "Frontend"]}
+                    tags={["Figma", "UX Research", "Frontend"]}
                     link="#"
                 />
 
@@ -40,20 +40,25 @@ export default function Projects() {
                 /> */}
 
                 <ProjectCard
-                    title="Erie Website Redesign"
-                    description="Website redesign project for a Chicago nonprofit organization."
+                    title="InsureLit"
+                    description="Health & Insurance Literacy app designed to help users navigate the complexities of healthcare."
                     image="/your-image-here.png"
                     tags={["Figma", "UI/UX", "Frontend"]}
                     link="#"
                 />
 
                 <ProjectCard
-                    title="Erie Website Redesign"
-                    description="Website redesign project for a Chicago nonprofit organization."
+                    title="Personal Website"
+                    description="Designed my own website in Figma and built it from scratch using HTML, CSS, JavaScript, and React. More updates to come!!"
                     image="/your-image-here.png"
-                    tags={["Figma", "UI/UX", "Frontend"]}
+                    tags={["Figma", "Web Design", "React"]}
                     link="#"
                 />
+            </div>
+
+            <div className="projects-more">
+                <p> I also have experiments and design studies across photography, typography, color, and more</p>
+                <a href="#"> EXPLORE DESIGN WORK ↗ </a>
             </div>
         </section>
     )

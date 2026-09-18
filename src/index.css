@@ -505,6 +505,35 @@ body {
    grid-column: span 2; 
 }
 
+.projects-more {
+   font-family: 'Roboto Mono', monospace;
+   text-align: center;
+   margin: 5em auto 10em auto;
+   max-width: 600px;
+}
+
+/* .projects-more h3 {
+   font-size: 1.5rem;
+   margin-bottom: 0.5em;
+   font-weight: 500;
+} */
+
+.projects-more p {
+   font-size: 1.125rem;
+   color: #94a3b8;
+   margin-bottom: 4em;
+}
+
+.projects-more a {
+   font-family: 'Roboto Mono', monospace;
+   color: #f1f5f9;
+   text-decoration: none;
+   font-size: 1.5rem;
+   padding: 0.5em 1em;
+   border: 1.5px solid #f1f5f9;
+   border-radius: 8px;
+}
+
 /* CONTACT SECTION */
 
 /* FOOTER SECTION */
