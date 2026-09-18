@@ -378,7 +378,7 @@ body {
 
 .experience-card h3 {
    font-family: 'Inter', sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.75rem;
    letter-spacing: 0.05em;
    margin: 0.5em 0 0.25em 0;
    font-weight: 500;
@@ -395,7 +395,7 @@ body {
 
 .experience-description {
    font-family: 'Roboto Mono', monospace;
-   font-size: 0.9rem;
+   font-size: 0.875rem;
    letter-spacing: 0.05em;
    margin: 0;
    color: #94a3b8;
@@ -540,5 +540,9 @@ body {
 
    .projects-grid {
       grid-template-columns: 1fr;
+   }
+
+   .project-card.featured {
+      grid-column: span 1;
    }
 }

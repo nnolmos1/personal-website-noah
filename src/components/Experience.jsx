@@ -59,7 +59,7 @@ export default function Experience() {
                 <ExperienceCard 
                     title="Discovery Partners Institute"
                     role="IOS APP DESIGNER"
-                    description="Prototyped a health & insurance literacy app. Pitched at Apple Michigan Ave as finalists in the 2025 Everyone Can Code Competition!"
+                    description="Prototyped a health & insurance literacy app, and pitched it at Apple Michigan Ave as finalists in the 2025 Everyone Can Code Competition!"
                     tags={["SwiftUI", "Figma", "UI/UX"]}
                 />
             </div>
