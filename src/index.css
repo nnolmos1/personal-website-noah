@@ -132,10 +132,15 @@ body {
 .section-heading {
    font-family: 'Roboto Mono', monospace;
    text-align: center;
-   font-size: 2.5rem;
+   font-size: 2.75rem;
    letter-spacing: 0.05em;
-   margin-bottom: 1em;
+   margin-bottom: 0.75em;
    font-weight: 500;
+}
+
+.section-number {
+   color: #94a3b8;
+   margin-right: 0.125em;
 }
 
 .about-intro {
@@ -147,6 +152,7 @@ body {
 
 .about-text {
    max-width: 700px;
+   margin-top: 1em;
 }
 
 .about-text p {
@@ -302,7 +308,7 @@ body {
 .section-subheading {
    font-family: 'Roboto Mono', monospace;
    text-align: center;
-   font-size: 1rem;
+   font-size: 1.125rem;
    letter-spacing: 0.05em;
    margin: 1em auto 4em auto;
    max-width: 50vw;
@@ -535,6 +541,43 @@ body {
 }
 
 /* CONTACT SECTION */
+
+.contact {
+   width: min(1050px, 90%); 
+   margin: 0 auto;
+   padding: 5em 0;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-heading {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 2.5rem;
+   letter-spacing: 0.05em;
+   margin-bottom: 0.25em;
+   font-weight: 500;
+}
+
+.contact-text {
+   font-family: 'Roboto ', monospace;
+   font-size: 1.125rem;
+   letter-spacing: 0.05em;
+   margin-bottom: 0.5em;
+   font-weight: 500;
+   max-width: 700px;
+}
+
+.contact-email {
+   font-family: 'Inter', sans-serif;
+   font-size: 1rem;
+   letter-spacing: 0.05em;
+   margin-bottom: 0.5em;
+   font-weight: 500;
+   color: #94a3b8;
+}
 
 /* FOOTER SECTION */
 

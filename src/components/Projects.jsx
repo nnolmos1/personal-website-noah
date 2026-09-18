@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
     return (
         <section id="projects" className="projects">
-            <h2 className="section-heading"> 03. PROJECTS </h2>
+            <h2 className="section-heading"> <span className="section-number">03</span> PROJECTS </h2>
 
             <div className="heading-divider">
                 <span className="divider-line"></span>
