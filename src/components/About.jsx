@@ -31,7 +31,7 @@ export default function About() {
 
                 <div className="education-text">
                     <p className="school-name">University of Illinois Chicago</p>
-                    <p className="degree">B.S. in CS + Design, Exp. 2025-2029</p>
+                    <p className="degree">B.S. in CS + Design, Exp. 2029</p>
                     <p className="school-details">4.0 GPA  ⭑  Honors College ⭑ Chancellor's Fellows Scholar
                     <br />
                     Involvement: ACM  ⭑  AASIA  ⭑  Hack4Impact UIC </p>

@@ -6,7 +6,7 @@ export default function Hero() {
             <section id="hero-left">
                 <h2 id="hero-heading"> HI, I'M </h2>
                 <h2 id="hero-name"> Noah! </h2>
-                <p id="hero-description"> CS + Design @ UIC | Aspiring Developer & Digital Designer </p>
+                <p id="hero-description"> CS + Design Student @ UIC | Aspiring Developer & Digital Designer </p>
 
                 <div id="hero-btns">
                     <a id="herobtn1" className="btn" href="#projects">View My Work <HiMiniArrowTurnRightDown /></a>

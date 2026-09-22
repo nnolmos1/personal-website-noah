@@ -57,7 +57,7 @@ export default function Projects() {
             </div>
 
             <div className="projects-more">
-                <p> I also have experiments and design studies across photography, typography, color, and more</p>
+                <p> I also have a growing collection of design studies and works across photography, typography, color, and more!</p>
                 <a href="#"> EXPLORE DESIGN WORK ↗ </a>
             </div>
         </section>
