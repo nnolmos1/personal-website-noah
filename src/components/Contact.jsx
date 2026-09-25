@@ -12,12 +12,18 @@ export default function Contact() {
                     <h3 className="contact-heading"> <span className="section-number">04</span> CONTACT </h3>
                     <p className="contact-text"> Feel free to reach out!! Always happy to meet new people, collaborate with others, and just chat about development and design :) </p>
                     </div>
-                    {/* Image here */}
+                    {/* Image or graphic here */}
                 </div>
                 <div className="contact-icons">
-                    <SiGmail />
-                    <FaLinkedin />
-                    <FaGithub />
+                    <a href="mailto:nnolmos1@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <SiGmail />
+                    </a>
+                    <a href="https://www.linkedin.com/in/noah-olmos-415758371/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin />
+                    </a>
+                    <a href="https://github.com/nnolmos1" target="_blank" rel="noopener noreferrer">
+                        <FaGithub />
+                    </a>
                 </div>
                 <div className="contact-botton">
                     <p className="contact-email"> nnolmos1@gmail.com </p>
