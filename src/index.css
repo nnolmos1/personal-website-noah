@@ -463,9 +463,12 @@ body {
 
 .project-card {
    border: 2px solid rgba(241, 245, 249, 0.25);
-   padding: 1.5em;
    border-radius: 10px;
    width: 100%;
+}
+
+.project-card-content {
+   padding: 1.5em;
 }
 
 .project-image {
@@ -473,12 +476,15 @@ body {
    aspect-ratio: 16 / 10;
    object-fit: cover;
    display: block;
+   opacity: 0.25;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
 }
 
 .project-card h3 {
    font-family: 'Inter', sans-serif;
    font-size: 1.5rem;
-   margin-top: 0;
+   margin: 0;
 }
 
 .project-description {
