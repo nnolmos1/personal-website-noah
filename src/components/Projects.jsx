@@ -28,7 +28,7 @@ export default function Projects() {
                     title="Erie House Website"
                     description="Website redesign project for a Chicago nonprofit organization."
                     image="/your-image-here.png"
-                    tags={["Figma", "UX Research", "Frontend"]}
+                    tags={["Figma", "UX Research", "Wireframing"]}
                     link="#"
                 />
 
@@ -36,7 +36,7 @@ export default function Projects() {
                     title="Erie Website Redesign"
                     description="Website redesign project for a Chicago nonprofit organization."
                     image="/your-image-here.png"
-                    tags={["Figma", "UI/UX", "Frontend"]}
+                    tags={["Figma", "UI/UX", "Wireframing"]}
                     link="#"
                     featured={true}
                 /> */}
