@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Navbar() {
     return (
         <nav className="navbar">
@@ -9,7 +7,6 @@ export default function Navbar() {
                 <a href="/#about"> ABOUT </a>
                 <a href="/#experience"> EXPERIENCE </a>
                 <a href="/#projects"> PROJECTS </a>
-                <Link to="/design">DESIGN</Link>
                 <a href="/#contact"> CONTACT </a>
                 
             </div>

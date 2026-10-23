@@ -27,7 +27,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-botton">
                     <p className="contact-email"> nnolmos1@gmail.com </p>
-                    <p className="footer-text"> <span className="cpy">&copy;</span> Noah Olmos · [ N.01 ] </p>   
+                    <p className="footer-text"> <span className="cpy">&copy;</span> 2026 Noah Olmos · [ N.01 ] </p>   
                 </div>
                 {/* <p className="faded"> Roblox: HiWintry </p> */}
             </div>

@@ -56,11 +56,22 @@ export default function Projects() {
                     tags={["Figma", "Web Design", "React"]}
                     link="#"
                 />
-            </div>
 
-            <div className="projects-more">
-                <p> I also have a growing collection of design studies and works across photography, typography, color, and more!</p>
-                <a href="/design"> EXPLORE DESIGN WORK ↗ </a>
+                <ProjectCard
+                    title="Olive - iOS"
+                    description="AI-powered nutrition assistant designed around accessibility and dietary needs."
+                    image={oliveImg}
+                    tags={["SwiftUI", "Figma", "AI"]}
+                    link="#"
+                />
+
+                <ProjectCard
+                    title="InsureLit"
+                    description="Health & Insurance Literacy app designed to help users navigate the complexities of healthcare."
+                    image={insurelitImg}
+                    tags={["Figma", "UI/UX", "Frontend"]}
+                    link="#"
+                />
             </div>
         </section>
     )

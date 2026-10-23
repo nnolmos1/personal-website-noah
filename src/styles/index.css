@@ -9,6 +9,7 @@ html {
 body {
    margin: 0;
    min-height: 100vh;
+   font-family: 'Inter', sans-serif;
    color: #f1f5f9;
    background: linear-gradient(115deg, #1A1A1A 4.79%, #090E18 100.69%);
    background-repeat: repeat;
@@ -21,7 +22,7 @@ body {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   padding: 1.25em 2em;
+   padding: 1.25em 3em;
 
    position: sticky; /* Makes the navbar stick to the top of the page */
    top: 0;
@@ -53,11 +54,11 @@ body {
 /*HERO SECTION*/ 
 
 #hero {
-   height: 100vh;
+   height: 60vh;
 }
 
 #hero-left {
-   margin: 12em 20em;
+   margin: 12em 21em;
    max-width: 500px;
    width: 100%;
 }
@@ -83,7 +84,7 @@ body {
 }
 
 #hero-description {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 1.25rem;
    color: #f1f5f9;
    margin: 0;
@@ -99,12 +100,13 @@ body {
 
 .btn {
    font-family: 'Roboto Mono', monospace;
-   font-size: 1.2rem;
+   font-size: 1rem;
+   font-weight: 500;
    color: #f1f5f9;
    margin: 0;
    letter-spacing: 0.04em;
    border: 1.5px solid #f1f5f9;
-   padding: 0.5em 0.9em;
+   padding: 0.875em 1.25em;
    background-color: transparent;
    border-radius: 8px;
    cursor: pointer;
@@ -125,21 +127,21 @@ body {
 
 
 .about {
-   width: min(1050px, 90%); /* Set a maximum width of 900px or 90% of the viewport width, whichever is smaller */
+   width: min(1200px, 90%); /* Set a maximum width of 900px or 90% of the viewport width, whichever is smaller */
    margin: 0 auto;
    padding: 5em 0;
 }
 
 .section-heading {
-   font-family: 'Roboto Mono', monospace;
-   text-align: center;
-   font-size: 2.75rem;
+   font-family: 'Inter', sans-serif;
+   font-size: 3rem;
    letter-spacing: 0.05em;
-   margin-bottom: 0.75em;
+   margin-bottom: 0.5em;
    font-weight: 500;
 }
 
 .section-number {
+   font-family: 'Roboto Mono', monospace;
    color: #94a3b8;
    margin-right: 0.125em;
 }
@@ -157,8 +159,7 @@ body {
 }
 
 .about-text p {
-   /* font-family: 'Inter', sans-serif; */
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 1rem;
    line-height: 1.6;
    color: #cbd5e1;
@@ -180,19 +181,19 @@ body {
 
 /* EDUCATION */ 
 .education {
-   margin-top: 10em;
-   margin-bottom: 5em;
+   margin-top: 3em;
+   margin-bottom: 3em;
 }
 .subsection-heading {
    display: flex;
    align-items: center;
    gap: 1em;
-   margin-top: 5em;
+   margin-top: 2em;
    margin-bottom: 2em;
 }
 
 .subsection-heading h3 {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 1.5rem;
    letter-spacing: 0.1em;
    white-space: nowrap;
@@ -220,7 +221,7 @@ body {
    align-items: center;
    gap: 2rem;
    padding-left: 1rem;
-   border-left: 1px solid rgba(241, 245, 249, 0.25);
+   border-left: 2px solid rgba(241, 245, 249, 0.25);
 }
 
 .education-logo {
@@ -244,7 +245,7 @@ body {
 
 .degree {
    color: #f1f5f9 !important;
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-weight: 500;
    margin: 0;
    margin-bottom: 1em;
@@ -259,16 +260,37 @@ body {
 
 }
 
+.school-detail-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75em;
+   margin-bottom: 1em;
+}
+
+.school-detail-tags span {
+   font-family: 'Roboto Mono', monospace;
+   font-size: 0.8rem;
+   color: #94a3b8;
+   border: 1.75px solid rgba(241, 245, 249, 0.25);
+   padding: 0.6em 1.2em;
+   border-radius: 6px;
+}
+
+.school-involvement > span {
+   display: block;
+   margin-bottom: 0.75em;
+}
+
 /*SKILLS */
 .skill-card {
-   border: 2px dashed rgba(241, 245, 249, 0.25);
-   padding: 1.5em;
+   /* border: 2px dashed rgba(241, 245, 249, 0.5); */
+   padding: 1.5em 14.5em;
    margin-bottom: 2em;
    border-radius: 8px;
 }
 
 .skill-card h4 {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 1.25rem;
    letter-spacing: 0.05em;
    margin: 0 0 1.5em 0;
@@ -280,7 +302,7 @@ body {
    flex-wrap: wrap;
    gap: 0.75em;
    margin-bottom: 1em;
-   max-width: 750px;
+   max-width: 700px;
    width: 100%;
 }
 
@@ -290,7 +312,7 @@ body {
    color: #94a3b8;
    border: 1.75px solid rgba(241, 245, 249, 0.25);
    padding: 0.6em 1.2em;
-   border-radius: 10px; 
+   border-radius: 6px; 
 }
 
 
@@ -307,7 +329,7 @@ body {
 }
 
 .section-subheading {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    text-align: center;
    font-size: 1.125rem;
    letter-spacing: 0.05em;
@@ -380,7 +402,7 @@ body {
    max-width: 500px;
    width: 100%;
    padding: 1em 2em;
-   border-radius: 8px;
+   border-radius: 6px;
 }
 
 .experience-card h3 {
@@ -401,7 +423,7 @@ body {
 }
 
 .experience-description {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 0.875rem;
    letter-spacing: 0.05em;
    margin: 0;
@@ -429,7 +451,7 @@ body {
 /* PROJECTS SECTION */
 
 .projects {
-   width: min(1050px, 90%); 
+   width: min(1200px, 90%); 
    margin: 0 auto;
    padding: 5em 0;
 }
@@ -456,18 +478,23 @@ body {
 
 .projects-grid {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 2em;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1em;
    margin-top: 4em;
 }
 
 .project-card {
+   display: flex;
+   flex-direction: column;
    border: 2px solid rgba(241, 245, 249, 0.25);
-   border-radius: 10px;
+   border-radius: 8px;
    width: 100%;
 }
 
 .project-card-content {
+   display: flex;
+   flex: 1;
+   flex-direction: column;
    padding: 1.5em;
 }
 
@@ -488,7 +515,7 @@ body {
 }
 
 .project-description {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    color: #94a3b8;
 }
 
@@ -496,7 +523,7 @@ body {
    display: flex;
    flex-wrap: wrap;
    gap: 0.75em;
-   margin: 1.5em 0;
+   margin: auto 0 1.5em;
 }
 
 .project-tags span {
@@ -519,7 +546,7 @@ body {
 }
 
 .projects-more {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    text-align: center;
    margin: 5em auto 10em auto;
    max-width: 600px;
@@ -564,7 +591,7 @@ body {
 }
 
 .contact-heading {
-   font-family: 'Roboto Mono', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 2.5rem;
    letter-spacing: 0.05em;
    margin-bottom: 0.25em;
@@ -572,7 +599,7 @@ body {
 }
 
 .contact-text {
-   font-family: 'Roboto ', monospace;
+   font-family: 'Inter', sans-serif;
    font-size: 1.125rem;
    letter-spacing: 0.05em;
    margin-bottom: 0.5em;
@@ -620,7 +647,7 @@ body {
 
 .footer-text {
    font-family: 'Roboto Mono', monospace;
-   font-size: 1rem;
+   font-size: 0.875rem;
    letter-spacing: 0.05em;
    color: #94a3b8;
 }
