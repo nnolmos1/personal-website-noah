@@ -8,9 +8,9 @@ export default function About() {
 
         <div className="about-intro">
             <div className="about-text">
-            <p>My name is Noah Olmos, and I am currently a Sophomore at the <span className="highlight">University of Illinois Chicago</span> majoring in <span className="bold">Computer Science + Design.</span> </p>
-            <p>Recently I’ve been exploring the worlds of frontend development & web design, building things with Figma, React, HTML, CSS, and JavaScript. I'm also a product designer on the founding team for the UIC Chapter of Hack4Impact, a student organization dedicated to using technology for social good. However I’m always looking for opportunities to build new skills and explore new technologies.</p>
-            <p>In my free time, I find myself drawn to photography, exploring the city, working out, and</p>
+            <p>My name is Noah, and I am currently a Sophomore at the <span className="highlight">University of Illinois Chicago</span> majoring in <span className="bold">Computer Science + Design.</span> </p>
+            <p>Recently I’ve been exploring the worlds of <span className="bold">frontend development</span> & <span className="bold">web design</span>, building things with Figma, React, HTML, CSS, and JavaScript. I'm also a product designer on the founding team for the UIC Chapter of Hack4Impact, a student organization dedicated to using technology for social good. However I’m always looking for opportunities to build new skills and explore new technologies.</p>
+            <p>Outside of my studies, you can catch me [need smthg here], working out, or exploring the city! I enjoy digital art, graphic design, and I've recently been exploring photography.</p>
             </div>
 
             <div className="about-photo">
@@ -61,7 +61,7 @@ export default function About() {
             <div className="skills-grid">
 
                 <div className="skill-card">
-                    <h4>DEVELOPMENT {'</>'} </h4>
+                    <h4>DEVELOPMENT_ </h4>
 
                     <div className="skill-tags">
                         <span>HTML</span>
@@ -76,7 +76,7 @@ export default function About() {
                 </div>
 
                 <div className="skill-card">
-                    <h4>DESIGN ✎</h4>
+                    <h4>DESIGN_</h4>
 
                     <div className="skill-tags">
                         <span>Figma</span>
@@ -92,7 +92,7 @@ export default function About() {
             </div>
 
             <div className="skill-card exploring-card">
-                <h4>CURRENTLY EXPLORING —͟͟͞͞★</h4>
+                <h4>CURRENTLY EXPLORING_</h4>
 
                 <div className="skill-tags">
                 <span>Advanced React</span>

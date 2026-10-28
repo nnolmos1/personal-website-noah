@@ -7,13 +7,13 @@ export default function Projects() {
         <section id="projects" className="projects">
             <h2 className="section-heading"> <span className="section-number">03</span> PROJECTS </h2>
 
+            <p className="section-subheading"> A mix of highlighted experiences, coursework, and personal projects </p>
+
             <div className="heading-divider">
                 <span className="divider-line"></span>
                 <span className="divider-star">✦</span>
                 <span className="divider-line"></span>
             </div>
-    
-            <p className="section-subheading"> A mix of highlighted experiences, coursework, and personal projects </p>
 
             <div className="projects-grid"> 
                 <ProjectCard
@@ -28,7 +28,7 @@ export default function Projects() {
                     title="Erie House Website"
                     description="Website redesign project for a Chicago nonprofit organization."
                     image="/your-image-here.png"
-                    tags={["Figma", "UX Research", "Wireframing"]}
+                    tags={["Product Design", "UX Research", "Product Design"]}
                     link="#"
                 />
 
