@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import oliveImg from "../images/olive_img.jpg";
 import insurelitImg from "../images/insurelit_img.jpg";
+import noImg from "../images/noimage.png";
 
 export default function Projects() {
     return (
@@ -27,7 +28,7 @@ export default function Projects() {
                 <ProjectCard
                     title="Erie House Website"
                     description="Website redesign project for a Chicago nonprofit organization."
-                    image="/your-image-here.png"
+                    image={noImg}
                     tags={["Product Design", "UX Research", "Product Design"]}
                     link="#"
                 />
@@ -52,7 +53,7 @@ export default function Projects() {
                 <ProjectCard
                     title="Personal Website"
                     description="Designed my own website in Figma and built it from scratch using HTML, CSS, JavaScript, and React. More updates to come!!"
-                    image="/your-image-here.png"
+                    image={noImg}
                     tags={["Figma", "Web Design", "React"]}
                     link="#"
                 />
@@ -60,7 +61,7 @@ export default function Projects() {
                 <ProjectCard
                     title="Olive - iOS"
                     description="AI-powered nutrition assistant designed around accessibility and dietary needs."
-                    image={oliveImg}
+                    image={noImg}
                     tags={["SwiftUI", "Figma", "AI"]}
                     link="#"
                 />
@@ -68,7 +69,7 @@ export default function Projects() {
                 <ProjectCard
                     title="InsureLit"
                     description="Health & Insurance Literacy app designed to help users navigate the complexities of healthcare."
-                    image={insurelitImg}
+                    image={noImg}
                     tags={["Figma", "UI/UX", "Frontend"]}
                     link="#"
                 />
