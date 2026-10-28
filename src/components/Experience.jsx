@@ -10,7 +10,7 @@ export default function Experience() {
             <div className="experience-item"> {/* Exp 1 */}
 
 
-                <div className="timeline-star">✧</div>
+                <div className="timeline-star">✦</div>
 
                 <ExperienceCard 
                     date="APR 2026 – PRESENT"
